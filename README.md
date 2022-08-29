@@ -1,5 +1,7 @@
 # annimate
-Deploying text to image generator online.
+Deploying text to image generator online. Currently following these two examples:
+* https://github.com/ramsrigouthamg/GPU_Docker_Deployment_HuggingFace_Summarization
+* https://github.com/NickLucche/stable-diffusion-nvidia-docker
 
 1. Clone repo:
 ```
@@ -11,10 +13,15 @@ We need a huggingface token to download the model weights. Can be found here:
 ```
 docker build --build-arg TOKEN=<your/huggingface/token> -t annimate/stable-diffusion .
 ```
-3. Run docker
+3. Run docker (TODO)
 ```
 docker run -p 80:80 --gpus all annimate/stable-diffusion
 ```
+4. Query docker for inference results (TODO)
+
+5. Redo everything on AWS ECR/ECS (?) (TODO)
+
+6. Deploy on sagemaker (TODO)
 ## Inference
 ### Stable-diffusion
 #### 1.  Pipeline
