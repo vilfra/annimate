@@ -8,20 +8,21 @@ Deploying text to image generator online. Currently following these two examples
 git clone https://github.com/vilfra/annimate.git
 ```
 
-2. Build docker
+2. Build docker:
+
 We need a huggingface token to download the model weights. Can be found here: https://huggingface.co/settings/tokens.
 ```
 docker build --build-arg TOKEN=<your/huggingface/token> -t annimate/stable-diffusion .
 ```
-3. Run docker (TODO)
+3. Run docker (TODO):
 ```
 docker run -p 80:80 --gpus all annimate/stable-diffusion
 ```
-4. Query docker for inference results (TODO)
+4. Query docker for inference results (TODO):
 
-5. Redo everything on AWS ECR/ECS (?) (TODO)
+5. Redo everything on AWS ECR/ECS (?) (TODO):
 
-6. Deploy on sagemaker (TODO)
+6. Deploy on sagemaker (TODO):
 ## Inference
 ### Stable-diffusion
 #### 1.  Pipeline
