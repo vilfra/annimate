@@ -9,7 +9,7 @@ git clone https://github.com/vilfra/annimate.git
 ```
 
 2. Build docker
-We need a huggingface token to download the model weights. Can be found here: 
+We need a huggingface token to download the model weights. Can be found here: https://huggingface.co/settings/tokens.
 ```
 docker build --build-arg TOKEN=<your/huggingface/token> -t annimate/stable-diffusion .
 ```
