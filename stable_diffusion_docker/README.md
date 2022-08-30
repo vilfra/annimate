@@ -1,4 +1,4 @@
-# annimate
+# Stable-diffusion docker deploy
 Deploying text to image generator online. Currently following these two examples:
 * https://github.com/ramsrigouthamg/GPU_Docker_Deployment_HuggingFace_Summarization
 * https://github.com/NickLucche/stable-diffusion-nvidia-docker
