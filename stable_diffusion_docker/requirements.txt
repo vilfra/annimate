@@ -2,7 +2,6 @@ pydantic
 uvicorn
 gunicorn
 fastapi
-torch
 diffusers
 transformers
 scipy
