@@ -27,3 +27,4 @@ python3 stability-sdk/src/stability_sdk/client.py -W 512 -H 512 -n 1 --show "A s
 pip3 install pillow
 python3 test_python.py
 ```
+### 5. Try out javascript API (TODO)
